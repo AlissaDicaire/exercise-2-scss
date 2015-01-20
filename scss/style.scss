@@ -1,0 +1,9 @@
+/*This file imports al of your partials to be compiled into one style sheet which you can then attach t oyour html.
+All files that are prefixed with an underscoreare called particals, meaning they're isn't compiled unless its imported into an unprefixed .scss file */
+
+// Import variables, mixins and other modules
+@import 'base';
+@import 'mixins';
+
+//Components rule
+@import 'components/main';
